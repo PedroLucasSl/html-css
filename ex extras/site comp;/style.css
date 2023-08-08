@@ -1,0 +1,75 @@
+        #cabecalho{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to bottom, rgb(30, 255, 0), green);
+            margin: auto;
+            padding: 20px 10px;
+            color: rgb(224, 224, 224);
+        }
+
+        header > h1{
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        #paragrafo{
+            text-align: center;
+            margin: auto;
+        }
+
+        .lista-sem-bolhas{
+            list-style-type: none;
+            height: 1px;
+            display: inline-flex;
+        }
+
+        a{
+            color: rgb(224, 224, 224);
+            text-decoration: none;
+            margin: 2px 8px;  
+        }
+
+        #dan-droids, #irina, #bug-droid{
+            width: 100%;
+            height: 50%;
+            margin: auto;
+        }
+
+        #corpo{
+            background-color: rgba(22, 215, 0, 0.823);
+        }
+
+        #texto{
+            width: 50%;
+            height: 50%;
+            background-color: azure;
+            margin: auto;
+            padding: 10px;
+        }
+
+        h3{
+            background-color: rgba(2, 255, 2, 0.296);
+        }
+
+        iframe{
+            width: 100%;
+            height: 300px;
+            margin: auto;
+        }
+
+        #lista{
+            margin: 10px auto;
+            border-radius: 10px;
+            background-color: aqua;
+            box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.508);
+        }
+
+        #listah3{
+            background-color: rgb(0, 255, 110);
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #androidhistory{
+            color: black;
+        }

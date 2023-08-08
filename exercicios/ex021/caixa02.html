@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(1, 0, 83);
+        }
+
+        header{
+            background-color: rgb(197, 221, 241);
+            text-align: center;
+            margin: 9px auto;
+        }
+
+        main{
+            background-color: rgb(64, 235, 64);
+            padding: 9px;
+        }
+
+        main > section{
+            background-color: blueviolet;
+            margin: 10px 10px;
+            border-radius: 10px;
+            box-shadow: 8px 6px 5px 3px rgba(255, 14, 14, 0.578);
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            background-color: blueviolet;
+            box-shadow: 2px 2px 4px 2px rgba(255, 14, 14, 0.563);
+            margin: 4px ;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        article > aside{
+            text-align: right;
+            background-color: aqua;
+        }
+
+        #bola{
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+            background-color: aliceblue;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Redes Sociais</h1>
+        <nav>
+            <a href="#"><img src="imagem/icone-facebook.png" alt="icone facebook">Facebook</a>
+            <a href="#"><img src="imagem/icone-instagram.png" alt="icone instagram">Instagram</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure commodi ratione sequi harum hic, ea esse amet est aliquam perferendis itaque laudantium quidem quisquam, consequatur at eaque magni ad facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quidem corporis voluptatum, laboriosam quae quibusdam modi dolorem soluta iste minus, consectetur cumque architecto! Voluptatibus, voluptatem ex! Ratione dolorum nemo Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore modi esse quasi dignissimos! Ipsa, earum corrupti provident iste voluptates, animi perspiciatis repellendus numquam illo aliquam impedit, voluptatibus deserunt possimus placeat!Loremlore
+                        !</p>
+                    <aside>
+                        <p>escrito por Pedro</p>
+                    </aside>
+            </article>
+        </section>
+    </main>
+    <div id="bola"></div>
+</body>
+</html>

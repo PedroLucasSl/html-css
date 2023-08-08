@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+        SELETORES PERSONALIZADOS
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = clildren
+
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: #626565;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #000000;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: rgb(237, 237, 36);
+        }
+
+        a::after {
+            content: '⇦';
+        }
+
+        a::before{
+            content: '⇨';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://wa.me/+5585992399279" target="_blank">WhatsApp</a></li>
+        <li><a href="https://www.instagram.com/invites/contact/?i=148u5axsk8uz8&utm_content=3zucpx2" target="_blank">Instagram</a></li>
+        <li><a href="https://www.tiktok.com/@cortes_livessvg?_t=8eN19tpZzjq&_r=1" target="_blank">TikTok</a></li>
+    </ul>
+</body>
+</html>
