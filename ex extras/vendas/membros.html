@@ -4,17 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Área de Membros</title>
+    <link rel="shortcut icon" href="imagens/crescimento.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/membros.css">
 </head>
 <body>
-    <h1>Bem-Vindo a Área de Membros!</h1>
+    <header>
+        <h1>Área de Membros</h1>
+    </header>
     <nav>
-        <ul>
-            <a href="vendas.html"><li>Início</li></a>
-            <a href="#"><li>produtos</li></a>
-            <a href="contato.html"><li>Fale Conosco</li></a>
-            <a href="ajuda.html"><li>Central de Ajuda</li></a>
-        </ul>
+        <a href="vendas.html">Início</a>
+        <a href="produtos.html">produtos</a>
+        <a href="contato.html">Fale Conosco</a>
+        <a href="ajuda.html">Central de Ajuda</a>
     </nav>
-    <p>Aqui você pode se afiliar a produtos de membros vips da nossa plataforma ou criar o seu próprio produto.</p>
+    <main>
+        <h2>Bem-Vindo a Área de Membros!</h2>
+        <p>Aqui você pode se afiliar a produtos de membros vips da nossa plataforma ou criar o seu próprio produto.</p>
+        <aside>
+            <h3>Crie seu Produto</h3>
+            <form method="post">
+                <label for="text">Nome do Produto:</label>
+                <input type="text" name="Nome" placeholder="Nome" required>
+                <label for="e-mail">E-mail:</label>
+                <input type="email" name="e-mail" placeholder="E-mail" required>
+                <label for="link">Link:</label>
+                <input type="text" id="link" name="link" placeholder="Digite o link aqui" required>
+                <input id="enviar" type="button" value="enviar">
+        </aside>
+    </footer>
+    </main>
 </body>
 </html>

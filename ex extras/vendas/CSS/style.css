@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@500&display=swap');
+
+:root{
+    --cor0: #22006a;
+    --cor1: #3f006c;
+    --cor2: #44004e;
+    --cor3: #6a004e;
+    --cor4: #84001f;
+    --cor5: #ff003c;
+    --cor6: #904a00;
+    --cor7: #ff9500;
+
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-destaque: 'lilita', cursive;
+    --font-forte: 'REM:wght', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    background-color: #1e1e1e;
+    font-family: var(--font-destaque);
+}
+
+header{
+    margin: 10px auto;
+    font-size: 40px;
+    text-align: center;
+    background: linear-gradient(#fd2828, #ff6a2a, #ffac12);
+}
+
+nav{
+    text-align: right;
+    background-color: #ffac12;
+    padding: 15px;
+    margin: -10px auto;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+nav > a:hover{
+    background-color: var(--cor6);
+    color: var(--cor5);
+    text-decoration: underline;
+    transition-duration: 0.9s;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+main{
+    font-family: var(--font-padrao);
+    max-width: 1000px;
+    min-width: 400px;
+    margin: 40px auto;
+    padding: 10px;
+    border: 3px solid;
+}
+
+main > h2{
+    font-size: 70px;
+    margin: 5px auto;
+}
+
+main > p{
+    margin: auto;
+    padding: 15px;
+}
+
+main > p#identificacao{
+    font-size: 17px;
+    transform: translate(130px);
+}
+
+form{
+    max-width: 400px;
+    margin: auto;
+}
+
+form > input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px auto;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+form > input#enviar{
+    cursor: pointer;
+    transform: translate(130px);
+    width: 50%;
+    margin: auto;
+    color: white;
+    background-color: var(--cor0);
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+span{
+    color: var(--cor0);
+}

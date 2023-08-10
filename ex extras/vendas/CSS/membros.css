@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@500&display=swap');
+
+:root{
+    --cor0: #22006a;
+    --cor1: #3f006c;
+    --cor2: #44004e;
+    --cor3: #6a004e;
+    --cor4: #84001f;
+    --cor5: #ff003c;
+    --cor6: #904a00;
+    --cor7: #ff9500;
+
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-destaque: 'lilita', cursive;
+    --font-forte: 'REM:wght@500', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #313131;
+    color: #ffffff;
+    font-family: var(--font-padrao);
+}
+
+header{
+    background: linear-gradient(#eaff00, #ff7700);
+    font-family: var(--font-destaque);
+}
+
+header > h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+
+nav {
+    background: linear-gradient(#ff7700, #a74e00);
+    padding: 20px;
+    text-align: right;
+    font-family: var(--font-destaque);
+}
+
+nav > a{
+    text-decoration: none;
+    color: rgb(255, 204, 0);
+    margin: 12px;
+    border: none;
+}
+
+nav > a:hover{
+    background-color: #ffe100;
+    color: #ff0000;
+    padding: 15px;
+    border-radius: 20px;
+    transition-duration: 1.2s;
+    text-decoration: underline;
+}
+
+main{
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+main > h2{
+    margin: 20px auto;
+    font-size: 30px;
+}
+
+aside{
+    margin: 30px auto;
+}
+
+aside > h3{
+    text-align: left;
+    margin: 20px auto;
+    font-size: 25px;
+}
+
+label{
+    font-size: 18px;
+}
+
+form{
+    max-width: 400px;
+    margin: auto;
+}
+
+form > input{
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px auto;
+    width: 100%;
+    font-size: 20px;
+    font-family: var(--font-forte);
+    font-weight: 1000;
+}
+
+form > input#enviar{
+    cursor: pointer;
+    transform: translate(130px);
+    width: 50%;
+    margin: auto;
+    color: white;
+    background-color: var(--cor0);
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: var(--font-forte);
+}
+

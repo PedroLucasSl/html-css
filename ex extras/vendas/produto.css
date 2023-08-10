@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+:root{
+    --cor0: #22006a;
+    --cor1: #3f006c;
+    --cor2: #44004e;
+    --cor3: #6a004e;
+    --cor4: #84001f;
+    --cor5: #ff003c;
+    --cor6: #904a00;
+    --cor7: #ff9500;
+
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-destaque: 'lilita', cursive;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: var(--font-padrao);
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    text-align: center;
+    background-color: #22006a;
+    padding: 15px;
+}
+
+nav > a {
+    padding: 10px;
+    margin: auto 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: orangered;
+    background-color: #736900;
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+
+main{
+    margin: auto;
+    max-width: 700px;
+}
+
+main > p{
+    margin: 20px auto;
+}
+
+img{
+    display: block;
+    text-align: center;
+    max-width: 200px;
+    max-height: 500px;
+    margin: 10px auto;
+}
+
+img#meio{
+    max-width: 400px;
+}
+
+img#maior{
+    max-width: 150px;
+}
+
+label{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
