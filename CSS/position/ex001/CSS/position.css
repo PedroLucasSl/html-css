@@ -1,0 +1,24 @@
+.conteudo{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.primario{
+    background-color: #22ff00;
+    top: 200px;
+}
+
+.secundario{
+    background-color: #ff0000;
+    position: relative;
+}
+
+.conteudo_isActive{
+    z-index: 1;
+}

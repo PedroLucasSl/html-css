@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem de Fundo</title>
+    <style>
+
+        body{
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+        div.box{
+            display: inline-block;
+            border: 3px solid black;
+            background-color: bisque;
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+        }
+        /* temos 3 formas de "pintar" o fundo da nossa pagina */
+        div#bx1{
+            background-color: aquamarine;
+        }
+
+        div#bx2{
+            background-image: linear-gradient(yellow, red);
+        }
+
+        div#bx3{
+            background-image: url(imagens/pattern003.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="bx1"></div>
+    <div class="box" id="bx2"></div>
+    <div class="box" id="bx3"></div>
+</body>
+</html>

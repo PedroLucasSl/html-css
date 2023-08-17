@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.conteudo{
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.principal{
+    background-color: #c10000;
+    float: right;
+}
+
+.secundario{
+    background-color: #01ab04;
+    float: right;
+}
+
+article{
+    background-color: rgb(225, 0, 255);
+    overflow: hidden;
+}
+
+p{
+    clear: both;
+}

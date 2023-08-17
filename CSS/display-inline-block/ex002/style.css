@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.completa{
+    list-style: none;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: justify;
+    color: #fff;
+}
+
+.completa::after{
+    content: 'j';
+    display: inline-block;
+    width: 100%;
+}
+
+/* serve para enganar o justify como se fosse uma 4° linha, pois o justify n contabiliza a ultima linha( *IMPORTÂNTE: ULTILIZEI O "WIDTH" PARA FINGIR SER UMA LINHA) */
+
+.lista{
+    display: inline-block;
+    width: 25%;
+    height: 200px;
+}
+
+.primeiro{
+    background-color: rgb(0, 157, 255);
+}
+
+.segundo{
+    background-color: blue;
+}
+
+.terceiro{
+    background-color: blueviolet;
+}
+

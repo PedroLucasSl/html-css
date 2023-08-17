@@ -55,7 +55,7 @@ header > p{
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -68,8 +68,8 @@ nav{
 nav > a{
     color: var(--cor0);
     text-decoration: none;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 19px;
+    padding: 15px;
     font-weight: bold;
     transition-duration: 1s;
 
