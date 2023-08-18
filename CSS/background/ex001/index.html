@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizando em CSS</title>
+    <style>
+        *{
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url(imagens/home-img.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            margin: 0;
+        }
+        header{
+            background-color: rgba(37, 37, 37, 0.241);
+        }
+        img{
+            margin-top: 20px;  
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+        }
+        li{
+            padding: 10px;
+        }
+        a{
+            color: #fff;
+            text-decoration: none;
+            margin: 10px;
+        }
+        a:hover{
+            padding: 3px;
+            text-decoration: underline;
+            transition-duration: 0.2s;
+        }
+        main{
+            width: 450px;
+            font-size: 20px;
+            padding: 20px;
+            
+            position: absolute;
+            bottom: 40%;
+            left: 15%;
+        }
+        h1{
+            margin-bottom: 10px;
+        }
+        p{
+            word-spacing: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="imagens/logo.png" alt="logo café">
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Pedidos</a></li>
+                <li><a href="#">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Bem-Vindos</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, repellat sint praesentium similique ad et deleniti impedit, fuga asperiores ducimus facere quaerat totam aliquid. Voluptate laudantium iusto ducimus distinctio sint.</p>
+        </section>
+    </main>
+</body>
+</html>
